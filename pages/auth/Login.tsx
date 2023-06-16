@@ -1,14 +1,12 @@
 import React, { useState, FC } from "react";
 import ReactModal from "react-modal";
 import { Inter } from 'next/font/google'
-import { NextPage } from 'next';
 import { useRouter } from 'next/router';
 import { X } from 'react-feather';
 import styles from "./auth.module.css"
-import signIn from "@/firebase/auth/signin";
 import firebase_app from "@/firebase/config";
-import { RecaptchaVerifier, signInWithPhoneNumber, getAuth } from "firebase/auth";
-import { login } from "../../store/actions/authAction"
+import { RecaptchaVerifier, getAuth } from "firebase/auth";
+
 
 const auth = getAuth(firebase_app);
 console.log(auth)

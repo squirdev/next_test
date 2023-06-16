@@ -13,12 +13,12 @@ export const useAuthContext = () => React.useContext(AuthContext);
 
 export const AuthContextProvider = ({
     children,
-}) => {
+}:{children :any}) => {
     const [user, setUser] = React.useState(null);
     const [loading, setLoading] = React.useState(true);
 
     React.useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (user) => {
+        const unsubscribe = onAuthStateChanged(auth, (user:any) => {
             if (user) {
                 setUser(user);
             } else {
