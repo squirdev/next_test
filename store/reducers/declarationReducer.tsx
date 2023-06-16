@@ -5,7 +5,7 @@ import * as action from '../actions/declarationAction'
 
 const initialState: DeclarationInfor = {
     declarationer: '',
-    time: '',
+    time: new Date(),
 };
 export default (state = initialState, action: { type: any; payload: any; }) => {
     switch (action.type) {
