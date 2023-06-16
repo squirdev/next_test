@@ -46,7 +46,7 @@ const SPModal: FC<ModalProps> = ({ isOpen, onClose }) => {
       return console.log(error)
     }
 
-    localStorage.setItem("Idtoken", `Bearer ${result._tokenResponse.idToken}`);
+    localStorage.setItem("Idtoken", `Bearer ${result?._tokenResponse?.idToken}`);
     // else successful
     // dispatch(login());
   }
