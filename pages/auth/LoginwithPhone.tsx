@@ -58,7 +58,7 @@ const LPModal: FC<ModalProps> = ({ isOpen, onClose }) => {
       });
   }
 
-  const onSubmitOtp = (e) => {
+  const onSubmitOtp = (e:any) => {
     e.preventDefault();
     confirmationResult
       .confirm(verifycode)
