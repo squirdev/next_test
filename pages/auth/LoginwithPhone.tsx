@@ -60,17 +60,17 @@ const LPModal: FC<ModalProps> = ({ isOpen, onClose }) => {
 
   const onSubmitOtp = (e:any) => {
     e.preventDefault();
-    confirmationResult
-      .confirm(verifycode)
-      .then((result: any) => {
-        // const user = result.user;
-        localStorage.setItem("Idtoken", `Bearer ${result._tokenResponse.idToken}`);
-        goHome();
-      })
-      .catch((error: any) => {
-        console.log(error);
-        setCodeError(true);
-      });
+    // confirmationResult
+    //   .confirm(verifycode)
+    //   .then((result: any) => {
+    //     // const user = result.user;
+    //     localStorage.setItem("Idtoken", `Bearer ${result._tokenResponse.idToken}`);
+    //     goHome();
+    //   })
+    //   .catch((error: any) => {
+    //     console.log(error);
+    //     setCodeError(true);
+    //   });
   };
 
   return (
