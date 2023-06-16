@@ -50,9 +50,9 @@ const LModal: FC<ModalProps> = ({ isOpen, onClose }) => {
 
     console.log(phone, appVerifier)
 
-    localStorage.setItem("Idtoken", `Bearer ${result._tokenResponse.idToken}`);
-    // else successful
-    console.log(result)
+    // localStorage.setItem("Idtoken", `Bearer ${result._tokenResponse.idToken}`);
+    // // else successful
+    // console.log(result)
     return router.push("/home")
   }
 
