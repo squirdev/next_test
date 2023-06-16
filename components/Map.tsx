@@ -4,7 +4,7 @@ import type { NextPage } from 'next';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import { useMemo, useState } from 'react';
 import usePlacesAutocomplete, { getGeocode, getLatLng } from 'use-places-autocomplete';
-import styles: from '../styles/home.module.css';
+import styles from '../styles/home.module.css';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 
@@ -102,6 +102,7 @@ const Map: NextPage = () => {
               //   strokeWeight: 0,
               //   scale: 1.25
               // }}
+              
               icon={"/Pin.svg"}
             />
           ))}
