@@ -59,16 +59,16 @@ const LModal: FC<ModalProps> = ({ isOpen, onClose }) => {
   const onSubmitOtp = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
     // console.log(codee);
-    confirmationResult
-      .confirm(vcode)
-      .then((result: { user: any; }) => {
-        const user = result.user;
-        router.push("/home")
-      })
-      .catch((error: any) => {
-        console.log(error);
-        setCodeError(true);
-      });
+    // confirmationResult
+    //   .confirm(vcode)
+    //   .then((result: { user: any; }) => {
+    //     const user = result.user;
+    //     router.push("/home")
+    //   })
+    //   .catch((error: any) => {
+    //     console.log(error);
+    //     setCodeError(true);
+    //   });
   };
 
   return (
