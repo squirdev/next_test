@@ -49,7 +49,7 @@ const LPModal: FC<ModalProps> = ({ isOpen, onClose }) => {
     );
     await signInWithPhoneNumber(auth, phone, appVerifier)
       .then((confirmationResult) => {
-        window.confirmationResult = confirmationResult;
+        (window as any).confirmationResult = confirmationResult;
         setPhoneInput(false);
         setConfirmInput(true);
       })
