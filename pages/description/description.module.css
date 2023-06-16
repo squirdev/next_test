@@ -1,0 +1,89 @@
+.btn {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.signUpBtn {
+  background: #23B154;
+  width: 100%;
+  height: 50px;
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.loginBtn {
+  background: #ffffff;
+  width: 100%;
+  height: 50px;
+  color: #23B154;
+  border: 1px solid #23B154;
+  border-radius: 25px;
+
+}
+
+.con {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+
+.content {
+  padding: 10px;
+}
+
+.content h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  line-height: 25px;
+}
+
+.content>p {
+  padding: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #8C8C8C;
+  margin: 0;
+}
+
+.content .free {
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .free h3 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  margin: 0;
+}
+
+.contnet .free p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  color: #8C8C8C;
+  font-size: 14px;
+}
+
+.num {
+  padding: 0 5px;
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+}

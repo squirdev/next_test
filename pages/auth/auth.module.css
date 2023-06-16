@@ -1,0 +1,131 @@
+.Main {
+  width: 100%;
+  /* height: 30%; */
+  background: rgba(224, 224, 224, 0.95);
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+.EnterModal {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  background-color: #FFFFFF;
+  bottom: 30%;
+  padding: 15px;
+}
+
+.DeleteModal {
+  position: absolute;
+  width: 90%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  bottom: 30%;
+  left: 5%;
+}
+
+.Head,
+.DeleteHead {
+  /* display: flex; */
+  padding: 20px;
+  text-align: center;
+}
+
+.Head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ModalHead {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.CrossButton {
+  position: absolute;
+  right: 10px;
+}
+
+.Name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #727272;
+}
+
+.ModalName {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ACACAC;
+}
+
+.DeleteName {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #353535;
+}
+
+.Head h2 {
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #353535;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 0 10px;
+}
+
+.Content input {
+  width: 100%;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.Content button,
+.Content span {
+  width: 100%;
+  height: 50px;
+  background: #23B154;
+  border-radius: 3px;
+  color: #FFFFFF;
+  border: none;
+}
+
+.Content span {
+  background-color: #FFFFFF;
+  color: #23B154;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Error {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

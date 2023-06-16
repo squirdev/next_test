@@ -1,0 +1,141 @@
+.container {
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    min-height: 100%;
+  }
+}
+
+.video {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  height: calc(100vh - 230px);
+}
+
+.btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+
+.btn>div {
+  padding: 0 5px;
+}
+
+.signUpBtn {
+  background: #23B154;
+  width: 100%;
+  height: 50px;
+  color: #FFFFFF;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.loginBtn {
+  background: #ffffff;
+  width: 100%;
+  height: 50px;
+  color: #23B154;
+  border: 1px solid #23B154;
+  border-radius: 25px;
+}
+
+.loginPhoneBtn {
+  background: #ffffff;
+  width: 100%;
+  height: 50px;
+  color: #23B154;
+  border: 1px solid #23B154;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.Topbtn {
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+
+.Topbtn>div {
+  padding: 0 10px;
+}
+
+.floatBtn {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 10px 30px; */
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  border: 1px solid #606060;
+}
+
+.icon {
+  color: #777777;
+  width: 20px;
+  height: 20px;
+}
+
+.floatBtn span {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #929292;
+}
+
+.notice {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 24px;
+
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: rgba(46, 135, 255, 0.88);
+  /* outline: 1px solid #FFFFFF; */
+  text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+
+}
+
+.Map {
+  width: 100%;
+  height: 100vh;
+}
+
+
+.footerTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 8px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #23B154;
+  margin: 20px 0;
+}

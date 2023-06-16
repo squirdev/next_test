@@ -1,0 +1,222 @@
+.icon {
+  position: absolute;
+  right: 40px;
+  /* width: 50px; */
+  height: 28px;
+}
+
+.pinSetting {
+  position: fixed;
+  bottom: 80px;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #23B154;
+}
+
+.pinSetting>div {
+  padding: 5px 20px;
+}
+
+
+.pinSetting h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #525252;
+  margin: 20px 0 30px;
+}
+
+/* .pinSetting  */
+
+.btn,
+.Modalbtn {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  /* padding: 10px; */
+}
+
+.btn .addHome {
+  width: 100%;
+  height: 45px;
+  padding: 10px 20px;
+  background: #23B154;
+  border-radius: 3px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+}
+
+.allarea,
+.detail,
+.notice {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #23B154;
+}
+
+.allarea span,
+.detail span,
+.notice span {
+  width: 100%;
+  text-align: center;
+}
+
+.reset {
+  display: flex;
+  margin: 20px auto;
+  text-decoration-line: underline;
+  border: none;
+  background: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+
+  color: #23B154;
+}
+
+.modal {
+  width: 100%;
+  height: 30%;
+  background: rgba(224, 224, 224, 0.95);
+  border-radius: 20px;
+  position: fixed;
+  bottom: 0
+}
+
+.head {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.toggle {
+  position: absolute;
+  right: 30px;
+  width: 50px;
+  height: 30px;
+}
+
+.toggle input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 23px;
+  width: 23px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked+.slider {
+  background-color: #28AE56;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #28AE56;
+}
+
+input:checked+.slider:before {
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 30px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.NationwideModal {
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  z-index: 2;
+  background-color: #ffffff;
+  bottom: 20%;
+  padding: 20px;
+}
+
+.ModalHead {
+  padding-bottom: 20px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #23B154;
+}
+
+.Nation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #DFDFDF;
+}
+
+.ModalIcon {
+  position: absolute;
+  right: 5px;
+  color: #23B154;
+}
+
+.Modalbtn {
+  border: 1px solid #23B154;
+  border-radius: 2px;
+  margin-top: 10px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #23B154;
+}

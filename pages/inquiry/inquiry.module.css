@@ -1,0 +1,92 @@
+.inquiry {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.form {
+  margin: 10px auto 0;
+  max-width: 500px;
+  padding: 20px 20px 0;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #525252;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+  color: #525252;
+  border-radius: 2px;
+}
+
+.controlBtn {
+  width: 100%;
+  display: flex;
+}
+
+/* .controlBtn .opinion,
+.controlBtn .inquiry {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #525252;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #525252;
+  font-size: 16px;
+} */
+
+.controlBtn .fbtn,
+.controlBtn .sbtn {
+  width: 50%;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 1px solid #525252;
+}
+
+.controlBtn .fbtn {
+  background-color: #EDF9F0;
+  color: #23B154;
+}
+
+.btn {
+  position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 20px;
+}
+
+.btn .setPin {
+  width: 100%;
+  height: 50px;
+  padding: 10px 20px;
+  background: #23B154;
+  border-radius: 3px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn .next {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  padding: 10px auto;
+  background: #ffffff;
+  border-radius: 2px;
+  border: 1px solid #23B154;
+}

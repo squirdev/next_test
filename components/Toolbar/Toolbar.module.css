@@ -1,0 +1,63 @@
+.Toolbar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.nav {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  flex-grow: 1;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: #A79C9C;
+  padding: 12px 0;
+}
+
+.nav li.active {
+  color: #23B154;
+}
+
+.nav li.nonActive {
+  color: #A79C9C;
+}
+
+/* .nav li:first-child{
+  color: #23B154;
+} */
+
+
+
+
+.icon {
+  display: block;
+  height: 28px;
+  margin: 0 auto 5px;
+}
+
+.nav span {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.niceicon img {
+  display: inline;
+  margin: 0 auto 5px;
+}
