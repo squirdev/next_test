@@ -1,4 +1,4 @@
-import { useLoadScript, GoogleMap, MarkerF, Marker,Icon } from '@react-google-maps/api';
+import { useLoadScript, GoogleMap, MarkerF, Marker } from '@react-google-maps/api';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { NextPage } from 'next';
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons';
