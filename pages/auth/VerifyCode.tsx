@@ -42,7 +42,7 @@ const LPModal: FC<ModalProps> = ({ isOpen, onClose }) => {
       return console.log(error)
     }
 
-    localStorage.setItem("Idtoken", `Bearer ${result._tokenResponse.idToken}`);
+    // localStorage.setItem("Idtoken", `Bearer ${result._tokenResponse.idToken}`);
     // else successful
     console.log(result)
     return router.push("/home")
